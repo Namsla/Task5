@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+  color: black;
+  font-family: fantasy;
+}
+
+header {
+  height: 20px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  padding-top: 1px;
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+  gap: 10px;
+  padding: 100px;
+  list-style: none;
+  font-weight: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+.mainBody {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 70vh;
+  width: 100%;
+  border: black solid 5px;
+}
+
+button {
+  background-color: thistle;
+  color: black;
+}
+
+footer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  background: linear-gradient(-45deg, #d0f5be, #79ee, #98eecc);
+  background-size: 400% 400%;
+  animation: mainContainer-bg 10s ease infinite;
+  padding: 70px;
+  margin: 40px;
+}
+
+@keyframes mainContainer-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2 {
+  text-align: left;
+  color: black;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+h4 {
+  text-align: left;
+  color: darkgreen;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+}
+
+/* apply this to the container you want to animate */
